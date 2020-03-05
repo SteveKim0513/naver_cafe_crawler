@@ -57,8 +57,8 @@ driver.implicitly_wait(3)
 # Login Page
 driver.get(
     'https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com')
-driver.find_element_by_name('id').send_keys('11andhalf')
-driver.find_element_by_name('pw').send_keys('Monalisa!')
+driver.find_element_by_name('id').send_keys('ID')
+driver.find_element_by_name('pw').send_keys('PW!')
 # click login
 driver.find_element_by_css_selector('#frmNIDLogin > fieldset > input').click()
 time.sleep(15)  # 자동입력방지 문자는 직접 입력
