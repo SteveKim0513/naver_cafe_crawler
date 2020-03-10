@@ -1,4 +1,4 @@
-# Naver 카페 글 수집기
+# Naver 카페 글 수집기 & 워크 클라우드 만들기 (Naver Cafe Crawler and Word Cloud)
 
 ## Cafe name : 맘스홀릭 베이비
 
